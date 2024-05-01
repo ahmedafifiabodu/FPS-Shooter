@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8e3fdb7de00444f8c9ea48145ca725, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  MovementBounceVelocityLimit: 5
+  MovementBounceSpringStiffness: 20
+  MovementBounceSpringDamping: 10
+  idlePose:
+    positionOffset: {x: 0, y: 0, z: -0.1}
+    EulerOffset: {x: 0, y: 0, z: 0}
+    TransformSmoothDampTime: 0.1
+    MovementBounceStrength_Horizontal: 0.1
+    MovementBounceStrength_Vertical: 0.1
+    MovementBounceSpeed: 12
+  runPose:
+    positionOffset: {x: 0, y: 0, z: -0.2}
+    EulerOffset: {x: 0, y: 0, z: 0}
+    TransformSmoothDampTime: 0.1
+    MovementBounceStrength_Horizontal: 0.3
+    MovementBounceStrength_Vertical: 0.3
+    MovementBounceSpeed: 16
+  aimPose:
+    positionOffset: {x: 0, y: 0, z: 0}
+    EulerOffset: {x: 0, y: 0, z: 0}
+    TransformSmoothDampTime: 0.1
+    MovementBounceStrength_Horizontal: 0.08
+    MovementBounceStrength_Vertical: 0.08
+    MovementBounceSpeed: 12
+  reloadPose:
+    positionOffset: {x: 0, y: 0, z: 0}
+    EulerOffset: {x: 0, y: 0, z: 0}
+    TransformSmoothDampTime: 0.1
+    MovementBounceStrength_Horizontal: 0.1
+    MovementBounceStrength_Vertical: 0.1
+    MovementBounceSpeed: 12
