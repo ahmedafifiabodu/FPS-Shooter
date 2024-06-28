@@ -2,6 +2,10 @@
 
 This Unity project is an immersive First-Person Shooter (FPS) game featuring advanced enemy AI, dynamic player interactions, and a richly interactive environment. Designed for both enthusiasts and seasoned developers, this project showcases cutting-edge game development techniques within the Unity engine.
 
+<div align="center">
+  <video src="https://github.com/ahmedafifiabodu/FPS-Shooter/assets/74466733/5abb91e8-8a90-4c16-bb96-24977d8c9789" width="400" />
+</div>
+
 ## Overview
 
 Unity FPS Shooter is a showcase of high-quality game development practices, including complex AI behaviors, sophisticated player control systems, and a wide range of interactable objects that contribute to an engaging game experience. This project serves as both a fully playable FPS game and a valuable learning resource for those looking to explore advanced aspects of Unity game development.
